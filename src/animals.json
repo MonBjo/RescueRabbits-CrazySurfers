@@ -2,7 +2,7 @@
 	"animals": [
 		{
 			"name": "Roffe",
-			"born": "2022-07-23", 
+			"born": "2018-09-22", 
 			"location": "Karlstad",
 			"gender": "Hane",
 			"type": "Katt",
@@ -14,7 +14,7 @@
 		},
 		{
 			"name": "Tobbe",
-			"born": "2019",
+			"born": "2020-07-27",
 			"location": "Hammarö",
 			"gender": "Hane",
 			"type": "Katt",
@@ -26,7 +26,7 @@
 		},
 		{
 			"name": "Jordan",
-			"born": "2022-03-01",
+			"born": "2022-03-19",
 			"location": "Hagfors",
 			"gender": "Hane",
 			"type": "Kanin",
@@ -38,7 +38,7 @@
 		},
 		{
 			"name": "Jonna",
-			"born": "2020-12-01",
+			"born": "2022-02-04",
 			"location": "Sunne",
 			"gender": "Hona",
 			"type": "Kanin",
@@ -50,7 +50,7 @@
 		},
 		{
 			"name": "Tequilla och Nikita",
-			"born": "2022-02-22",
+			"born": "2022-06-17",
 			"location": "Karlstad",
 			"gender": "Honor",
 			"type": "Chinchilla",
@@ -62,7 +62,7 @@
 		},
 		{
 			"name": "Hans och Gösta",
-			"born": "2022-02-22",
+			"born": "2021-01-01",
 			"location": "Säffle",
 			"gender": "Hanar",
 			"type": "Chinchilla",
@@ -74,7 +74,7 @@
 		},
 		{
 			"name": "Kreti och Pleti",
-			"born": "2022-02-22",
+			"born": "2021-03-02",
 			"location": "Arvika",
 			"gender": "Honor",
 			"type": "Tamråttor",
@@ -86,7 +86,7 @@
 		},
 		{
 			"name": "Yin och Yang",
-			"born": "2020-12",
+			"born": "2022-05-26",
 			"location": "Säffle",
 			"gender": "Honor",
 			"type": "Tamråttor",
@@ -98,7 +98,7 @@
 		},
 		{
 			"name": "Maty",
-			"born": "2021-09",
+			"born": "2022-06-12",
 			"location": "Hammarö",
 			"gender": "Hona",
 			"type": "Hamster",
@@ -110,7 +110,7 @@
 		},
 		{
 			"name": "Håkan",
-			"born": "2022-06-01",
+			"born": "2019-12-24",
 			"location": "Arvika",
 			"gender": "Hane",
 			"type": "Hamster",
@@ -122,7 +122,7 @@
 		},
 		{
 			"name": "Maggan",
-			"born": "2019",
+			"born": "2022-04-24",
 			"location": "Säffle",
 			"gender": "Hona",
 			"type": "Marsvin",
@@ -134,7 +134,7 @@
 		},
 		{
 			"name": "Magnus",
-			"born": "2021-04-01",
+			"born": "2021-08-04",
 			"location": "Karlstad",
 			"gender": "Hane",
 			"type": "Marsvin",
@@ -146,7 +146,7 @@
 		},
 		{
 			"name": "Aina och Algot",
-			"born": "2016-06-01",
+			"born": "2020-02-02",
 			"location": "Torsby",
 			"gender": "Blandat",
 			"type": "Hund",
@@ -158,7 +158,7 @@
 		},
 		{
 			"name": "Bowie",
-			"born": "2021-03-01",
+			"born": "2019-03-08",
 			"location": "Charlottenberg",
 			"gender": "Hane",
 			"type": "Hund",
@@ -169,52 +169,28 @@
 			"animalId": 14
 		},
 		{
-			"name": "",
+			"name": "Stimmlimm",
 			"born": "",
-			"location": "",
-			"gender": "", 
+			"location": "Arvika",
+			"gender": "Blandat", 
 			"type": "övriga djur",
-			"arrival": "",
+			"arrival": "2022-07-21",
 			"booked": false,
-			"img": "",
-			"description": "",
+			"img": "src\\images\\animals-photo\\stimmlimm.jpg",
+			"description": "Ett vackert akvarium som söker ett nytt hem. Fiskarna är väldigt sociala och gillar att leka genom att röra ett finger framför glasrutan. Trivs bäst i ett hem utan småbarn då allt liv och rörelse stressar upp fiskarna.",
 			"animalId": 15
 		},
 		{
-			"name": "",
-			"born": "",
-			"location": "",
-			"gender": "",
+			"name": "Helge",
+			"born": "2021-01-02",
+			"location": "Säffle",
+			"gender": "Hona",
 			"type": "övriga djur",
-			"arrival": "",
-			"booked": false,
-			"img": "",
-			"description": "",
+			"arrival": "2021-08-05",
+			"booked": true,
+			"img": "src\\images\\animals-photo\\helge.jpg",
+			"description": "En ung sköldpadda som barnet tyvärr tröttnade på så hon söker nu ny familj. Hon behöver en van ägare som kan ge Helge det tålamod som behövs för att bli en social och busig sköldpadda. Varje dag så blir hon modigare och modigare, hon vågar nästan ta mat från handen nu.",
 			"animalId": 16
-		},
-		{
-			"name": "",
-			"born": "",
-			"location": "",
-			"gender": "",
-			"type": "övriga djur",
-			"arrival": "",
-			"booked": false,
-			"img": "",
-			"description": "",
-			"animalId": 17
-		},
-		{
-			"name": "",
-			"born": "",
-			"location": "",
-			"gender": "",
-			"type": "",
-			"arrival": "",
-			"booked": false,
-			"img": "",
-			"description": "",
-			"animalId": 18
 		}
 	]
 }

@@ -13,7 +13,7 @@ const Footer = () => {
                 <p>© 2022</p>
                 <p>Privacy Terms</p>
             </article>
-            <article >
+            <article className="socialMedia">
                 <a href="#" className="fa fa-facebook"></a>
                 <a href="#" className="fa fa-twitter"></a>
                 <a href="#" className="fa fa-instagram"></a>

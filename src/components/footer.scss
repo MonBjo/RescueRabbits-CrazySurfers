@@ -8,54 +8,45 @@ $icon-weight: 50px;
 
 .footer {
     width: 100%;
-    padding: 15px;
-    height: 100%;
-    background-color: $footerBg;
-    color: $footerClr;
+    margin-top: auto;
+    padding: 30px 15px;
+    background-color: base.$clr-bg-focus;
+    color: base.$clr-font;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    left:0;
-    bottom:0;
-    right:0;
-   
 }
 
 .fa {
-    font-size: 2.5em;
+    font-size: 2em;
     height: 2.5rem;
     width: 2.5rem;
-    text-align: center;
     text-decoration: none;
     border-radius: 0.5rem;
-    box-shadow: 0px 0px 10px rgb(95, 95, 95);
     margin: 2vw;
-  }
+    background-color: base.$clr-font;
+    color: base.$clr-bg-focus;
 
-.fa:hover {
-    opacity: 0.7;
-    background: $footerBg;
-    color: $footerClr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        opacity: 0.7;
+        background-color: base.$clr-bg-focus;
+        color: base.$clr-font;
+        border: 1px solid base.$clr-font;
+    }
 }
 
-// use mixin or generalise the styling of the icons?
-.fa-facebook {
-    background: $footerClr;
-    color: $footerBg;  
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.fa-twitter {
-    background: $footerClr;
-    color: $footerBg;
-}
-
-.fa-instagram {
-    background: $footerClr;
-    color: $footerBg;
-}
-
-.headline{
+.headline {
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 0.5rem;
@@ -64,9 +55,7 @@ $icon-weight: 50px;
 .ul__footer {
     list-style-type: none;
     cursor: pointer;
-    
-}
-
-li:hover {
-    text-decoration:underline;
+    li:hover {
+        text-decoration:underline;
+    }
 }

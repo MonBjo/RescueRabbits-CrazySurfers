@@ -1,29 +1,26 @@
-.forum-container{
+@use '../base.scss';
+
+.form-container{
     padding: 5vh 5vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    
+    @include base.contentWidth;
     
     
 }
  
-.animal-form{
+.animal-form {
      display: flex;
      flex-wrap: wrap;
-    flex-direction: row;
+     flex-direction: row;
      justify-content: center;
-    width: 750px;
 }
 
-.form-h1{
-     margin-bottom: 5vh;
-     text-align: center;
-}
  .frm-label{
-    background-color: #576F72;
+     background-color: base.$clr-accent-focus;
      font-size: 20px;
      padding: 5px;
      margin-top: 5px;
@@ -46,5 +43,8 @@
 }
 .submit-btn{
     justify-self: center;
-    padding: 20px;
+    padding: 1rem 3rem;
+    background-color: base.$clr-accent-focus;
+    color: white;
+    font-weight: bold;
 }

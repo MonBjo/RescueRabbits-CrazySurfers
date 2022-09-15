@@ -12,10 +12,19 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   flex-direction: row;
-  select, input {
+  
+  select {
     height: 27px;
   }
+  input {
+    height: 27px;
+    padding: 0 5px;
+    border-radius: 20px;
+  }
 }
+
+<<<<<<< HEAD
+
 
 .switchBox {
   position: relative;
@@ -30,45 +39,7 @@
       height: 0;
     }
 }
+=======
+>>>>>>> parent of 32d897a (merge V.1 to main)
 
-.slider {
-  user-select: none;
-  position: absolute;
-  cursor: pointer;
-  padding: 5px;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgb(106, 179, 63);
-  -webkit-transition: .4s;
-  transition: .4s;
-}
 
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 25px;
-  width: 40px;
-  border: base.$borderStyle;
-  border-radius: base.$radius 0.8rem 0.8rem base.$radius;
-  left: -1px;
-  bottom: -1px;
-  background-color: white;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #c2c2c2;
-}
-
-input:focus + .slider {
-  border-radius: base.$radius;
-  box-shadow: 0 0 0 2px black, 0 0 0 3px white;
-}
-
-input:checked + .slider:before {
-  transform: translateX(40px);
-  width: 77px;
-  border-radius: 0.8rem base.$radius base.$radius 0.8rem;
-}

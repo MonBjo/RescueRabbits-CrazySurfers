@@ -1,7 +1,7 @@
 @use '../_base.scss';
 
 .grid-container{
-    // padding: 5vh 5vh;
+    padding: 5vh 5vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -12,7 +12,7 @@
         margin: 15px;
         background-color: white;
         text-align: center;
-        box-shadow: 4px 5px 7px black;
+        box-shadow: base.$shadow;
         button{
             padding: 10px;
             margin: 10px;
@@ -24,6 +24,7 @@
             &:hover{
                 background-color: rgb(106, 179, 63);
                 font-size: medium;
+                margin-bottom: 8px;
             }
         }
 

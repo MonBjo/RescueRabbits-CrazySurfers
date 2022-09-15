@@ -1,5 +1,5 @@
 
-/*   color variables */
+/*   color variables   */
 $clr-gray600: #2a324b;
 $clr-gray700: #161d34;
 $clr-font: #1a1a1a;
@@ -8,7 +8,13 @@ $clr-bg: #E4DCCF;
 $clr-accent: #7D9D9C;
 $clr-accent-focus: #576F72;
 
-/*   border   */
+/*   other   */
 $radius: 0.2rem;
 $borderStyle: 1px solid gray;
+$shadow:  5px 5px 10px #353535;
 
+@mixin contentWidth($margin: 2rem auto) {
+  width: 80vw;
+  max-width: 800px;
+  margin: $margin;
+}

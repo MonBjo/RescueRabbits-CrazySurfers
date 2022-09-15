@@ -39,10 +39,8 @@
     flex-direction: column;
     gap: 2rem;
     align-items: center;
-    margin: 1rem;
 
     li {
-      height: 2vh;
       list-style: none;
       display: none;
       cursor: pointer;
@@ -57,9 +55,7 @@
     a {
       text-decoration: none;
       color: inherit;
-      padding: 5px;
 
-      
       &:hover{
         transition: 200ms all;
         border-bottom: 5px solid black;

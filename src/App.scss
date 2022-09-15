@@ -1,4 +1,4 @@
-@use 'base';
+@use 'base.scss';
 
 * {
   box-sizing: border-box;
@@ -19,18 +19,19 @@ select, input, button {
   border: base.$borderStyle;
 }
 
-* h1 {
-  size: 64px;
+h1 {
+  font-size: 64px;
+  font-weight: normal;
 }
 
-* h2 {
-  size: 24px;
+h2 {
+  font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-* h3 {
-  size: 18px;
+h3 {
+  font-size: 18px;
 }
 
 .App {
